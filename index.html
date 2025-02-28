@@ -10,7 +10,7 @@
     <div class="w-full h-full bg-gray-900 dark:bg-gray-200">
         <header class="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-lg">
             <div class="flex-1 flex justify-between items-center">
-                <h3 class="text-white">$Joyce</h3>
+                <h3 class="text-white italic text-4xl drop-shadow-xl ">Joyce</h3>
             </div>
 
             <label for="menu-toggle" class="cursor-pointer md:hidden block">
@@ -26,11 +26,12 @@
                 <nav>
                     <ul class="md:flex items-center justify-between text-base text-gray-100 dark:text-gray-600 pt-4 md:pt-0">
                         <li><a class="md:p-4 py-3 px-0 block text-rose-500" href="#">Home</a></li>
-                        <li><a class="md:p-4 py-3 px-0 block" href="#">About Me</a></li>
-                        <li><a class="md:p-4 py-3 px-0 block" href="#">Education</a></li>
-                        <li><a class="md:p-4 py-3 px-0 block" href="#">Skills</a></li>
+                        <li><a class="md:p-4 py-3 px-0 block" href="#aboutme">About Me</a></li>
+                        <li><a class="md:p-4 py-3 px-0 block" href="#education">Education</a></li>
+                        <li><a class="md:p-4 py-3 px-0 block" href="#skills">Skills</a></li>
                         <li><a class="md:p-4 py-3 px-0 block" href="#">Projects</a></li>
-                        <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact</a></li>
+                        <li><a class="md:p-4 py-3 px-0 block" href="https://docs.google.com/document/d/1_zb07SVrveC03GMa9c0rb4VPYufYgy08/edit?usp=sharing&ouid=104996668422647081620&rtpof=true&sd=true">Download CV</a></li>
+                        <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -53,7 +54,7 @@
                 <p>A junior frontend developer striving to become a senior fullstacker.</p>
 
                 <div class="sm:mt-4 mt-2">
-                    <button class="px-6 py-1 bg-rose-500 text-white rounded-sm">Hire Me</button>
+                    <button class="px-6 py-1 bg-rose-500 text-white rounded-sm animate-bounce">Hire Me</button>
                 </div>
             </div>
         </div>
@@ -71,18 +72,17 @@
 
 <section class="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto my-8 flex flex-col md:flex-row items-center md:items-start gap-6 h-lvh">
     <!-- Image Section -->
-    <div class="w-full md:w-1/3 my-16">
+    <div class="w-full md:w-1/3 my-32">
         <img src="./images/image3 .JPG" alt="Profile Picture" class="w-full rounded-lg shadow-md">
     </div>
 
     <!-- Text Content -->
     <div class="w-full md:w-2/3 my-32">
-        <h2 class="text-3xl font-bold mb-2 decoration-red-100">About Me</h2>
+        <h2 class="text-3xl font-bold mb-2 text-rose-500" id="aboutme">About Me</h2>
         <h3 class="text-xl font-semibold mb-2">Who am I?</h3>
         <p class="text-gray-700 leading-relaxed">
-            A graduate with an educational background but with no tech background. However, I strive to establish a career in the tech industry as it stands for now, no industry is comparable to it in everything including but not limited to job security and growth.
-            Currently, I am studying a web development course with MEST Africa, a program initiated by New Generation Ghana and Mastercard Foundation.
-            I believe this career path would provide me the professional growth I have been desiring. Joyce is an asset. Thus, any investment made in her would yield positive results.
+            I am a dedicated graduate with strong educational background,now making a strategic transition into the tech industry.Despite not having a formal tech background,my passion for innovation,problem-solving,and continues learning,and continues learning has driven me to pursue web development.Currently,I am enrolled in web development program with MEST Africa,an initiative by New Generation Ghana and Mastercard Foundation.
+            Iam eager to leverage my newly acquired skills alongside my existing strengths to contribute meaningfully to the industry.Iam committed to excelling in this space.With my adaptability,strong work ethic,and determination,i am confident that my investment in my potential will yeild positive results.
         </p>
     </div>
 </section>
@@ -90,7 +90,7 @@
 
     <div class="p-5 pt-8 border ignore border-gray-200 not-prose dark:border-gray-800 relative bg-gray-50 dark:bg-gray-800">
         <div
-            class="absolute w-auto rounded-b-lg border-b uppercase -translate-y-px tracking-wide leading-none border-l border-r border-gray-200 dark:border-gray-800 shadow-sm top-0 left-1/2 -translate-x-1/2 px-3 pt-1 pb-2 bg-white dark:bg-black text-gray-400 text-[0.65rem] font-extrabold">
+            class="absolute w-auto rounded-b-lg border-b uppercase -translate-y-px tracking-wide leading-none border-l border-r border-gray-200 dark:border-gray-800 shadow-sm top-0 left-1/2 -translate-x-1/2 px-3 pt-1 pb-2 bg-white dark:bg-black text-gray-400 text-[0.65rem] font-extrabold text-rose-500 animate-bounce" id="education">
             🤩 My Education 👇</div>
 
         <div class="max-w-5xl mx-auto">
@@ -165,7 +165,7 @@
 
 
 <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
-    <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Skills</h2>
+    <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900" id="skills">Skills</h2>
     <p class="mb-12 text-lg text-gray-500">Here is a few of the skills I have.</p>
     <div class="w-full">
         <div class="flex flex-col w-full mb-10 sm:flex-row">
@@ -244,10 +244,10 @@
       <!--- Starts component --> <a href="#_"> <img src="./images/image.project.PNG" class="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"> </a><a href="#_"> <img src="./images/image.project2.PNG" class="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"> </a><a href="#_"> <img src="./images/image.project3.PNG" class="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"> </a><a href="#_"> <img src="./images/image.project4.PNG" class="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_"> </a>
      </div>
      <div class="flex flex-row justify-around gap-10">
-        <button class="boder bg-rose-500 p-4 rounded-[10px]"> <a href=""></a> View Project</button>
+        <button class="boder bg-rose-500 p-4 rounded-[10px]"> <a href=""></a>Projects</button>
+        <!-- <button class="boder bg-rose-500 p-4 rounded-[10px]"> <a href=""></a>View Project</button>
         <button class="boder bg-rose-500 p-4 rounded-[10px]"> <a href=""></a>View Project</button>
-        <button class="boder bg-rose-500 p-4 rounded-[10px]"> <a href=""></a>View Project</button>
-        <button class="boder bg-rose-500 p-4 rounded-[10px]"> <a href=""></a>View Project</button>
+        <button class="boder bg-rose-500 p-4 rounded-[10px]"> <a href=""></a>View Project</button> -->
      </div>
     </div>
    </section>
@@ -257,7 +257,7 @@
     <div class="container mx-auto px-5 py-24">
       
       <div class="mb-12 flex w-full flex-col text-center">
-        <h1 class="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">Contact Me</h1>
+        <h1 class="title-font mb-4 text-2xl font-medium text-white sm:text-3xl" id="contact">Contact Me</h1>
         <p class="mx-auto text-base leading-relaxed lg:w-2/3">Feel free to reach out to me. Whether you have a question,
           feedback, or a collaboration proposal, I'd love to hear from you.
         </p>
@@ -291,8 +291,8 @@
   
   
           <!-- footer -->
-          <div class="mt-8 w-full border-t border-gray-800 p-2 pt-8 text-center">
-            <a class="text-indigo-400">ashawaabbey@gmail.com</a>
+          <div class="mt-8 w-full h-[20vh] border-t border-gray-800 p-2 pt-8 text-center">
+            <a href="mailto:akuajoyce7@yahoo.com" class="text-indigo-400">akuajoyce7@yahoo.com</a>
             <p class="my-5 leading-normal">+233 54 849 3670</p>
             <span class="inline-flex">
               <a class="text-gray-500">
